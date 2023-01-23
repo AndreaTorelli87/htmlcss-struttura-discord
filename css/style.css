@@ -1,0 +1,50 @@
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+div, nav{
+   border: dashed 1px black;
+}
+
+header{
+   background-color: #255EE9;
+}
+
+.container, ul{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 20px 0;
+}
+
+.small > nav, div{
+   background-color: #DAA520;
+   padding: 5px;
+   height: 40px;
+   margin: 10px 0;
+   width: calc(100% / 3);
+}
+
+.small div{
+   width: 15%;
+}
+
+nav{
+   width: 70%;
+}
+
+ul{
+  padding: 0;
+}
+
+.big{
+   background-color: blue;
+}
+
+.big div{
+   background-color: violet;
+   height: 300px;
+   width: 60%;
+}
