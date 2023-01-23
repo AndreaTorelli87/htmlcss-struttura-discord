@@ -6,7 +6,7 @@
 
 /* --- DEBUG --- */
 
-div, nav, img, p{
+.bordo{
    border: dashed 1px black;
 }
 
@@ -25,7 +25,7 @@ div, nav, img, p{
 }
 
 .sezione img, p{
-   height: 300px;
+   height: 400px;
 }
 
 img{
@@ -38,19 +38,9 @@ p{
    width: 40%;
 }
 
-span{
-   background-color: yellow;
+.verde{
+   background-color: #228B22;
 }
-
-{
-   background-color: #D3D3D3;
-}
-
-.container{
-   width: 80%;
-   margin: auto;
-}
-
 
 /* --- DEBUG --- */
 
@@ -58,7 +48,7 @@ header{
    background-color: #255EE9;
 }
 
-.container, ul, .big, .sezione{
+.flex-centrato{
    display: flex;
    justify-content: center;
    align-items: center;
@@ -76,10 +66,29 @@ header{
 }
 
 nav{
-   width: 70%;
+  width: 70%;
 }
 
+/* PERCHE NON SOVRASCRIVE LA REGOLA DEL 20PX? */
 ul{
   padding: 0;
+}
+
+.layout-width{
+   max-width: 1170px;
+   margin: 0 auto;
+}
+
+.grey{
+   background-color: #D3D3D3;
+}
+
+.right{
+   flex-direction: row-reverse;
+}
+
+.verde{
+   height: 500px;
+   width: 100%;
 }
 
